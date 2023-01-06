@@ -137,3 +137,49 @@ body {
     color: #444343;
     margin-bottom: 3px;
 }
+
+/* =========================== */
+#plan {
+    width: 100vw;
+    height: 40vh;
+}
+
+#plan .plan-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    margin: 50px 0;
+
+}
+
+#plan .plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 80px;
+    margin-bottom: 150px;
+}
+
+#plan .plan-item img {
+    width: 92.96px;
+    height: 92.96px;
+}
+
+#plan .plan-item h3 {
+    width: 270px;
+    height: 35px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #151414;
+    margin: 10px 0;
+}
+
+#plan .plan-item p {}
