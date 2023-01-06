@@ -161,7 +161,6 @@ body {
     justify-content: space-evenly;
     text-align: center;
     padding: 0 80px;
-    margin-bottom: 150px;
 }
 
 #plan .plan-item img {
@@ -179,7 +178,54 @@ body {
     line-height: 30px;
     text-align: center;
     color: #151414;
-    margin: 10px 0;
+    margin: 7px 0;
 }
 
-#plan .plan-item p {}
+#plan .plan-item p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* ================================ */
+#mindset {
+    width: 100vw;
+    height: 50vh;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mindset .mindset-container {
+    text-align: center;
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+}
+
+#mindset .mindset-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    width: 469px;
+    height: 94px;
+    color: #FFFFFF;
+    padding-top: 87px;
+    padding-left: 74px;
+    margin-bottom: 98px;
+    text-align: left;
+}
+
+#mindset .mindset-btn {
+    text-align: left;
+    padding-left: 74px;
+}
